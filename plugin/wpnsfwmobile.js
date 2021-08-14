@@ -7,7 +7,7 @@ let handler = async (m, { conn, args }) => {
   conn.sendFile(m.chat, res, 'wpnsfwmobile.jpg', `wangy wangy wangy`, m, false)
 }
 handler.help = ['wpnsfwmobile'].map(v => v + ' ')
-handler.tags = ['dewasa']
+handler.tags = ['image']
 
 handler.command = /^(wpnsfwmobile)$/i
 handler.owner = false

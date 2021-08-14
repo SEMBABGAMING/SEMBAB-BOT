@@ -7,7 +7,7 @@ let handler = async (m, { conn, args }) => {
   conn.sendFile(m.chat, res, 'wpmobile.jpg', `wangy wangy wangy`, m, false)
 }
 handler.help = ['wpmobile'].map(v => v + ' ')
-handler.tags = ['dewasa']
+handler.tags = ['image']
 
 handler.command = /^(wpmobile)$/i
 handler.owner = false
